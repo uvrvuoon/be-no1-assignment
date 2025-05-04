@@ -42,7 +42,7 @@ enum OperatorType {
     abstract <N extends Number> double calculate(N num1, N num2) throws Exception;
 }
 
-class ArithmeticCalculatorLv3 <N extends Number> implements printBig{
+public class ArithmeticCalculatorLv3 <N extends Number> implements printBig{
     private ArrayList<Double> arrayList = new ArrayList<>();
     // 피연산자는 여러 타입을 받을 수 있지만, 결과값은 double로 통일하여 관리
 
